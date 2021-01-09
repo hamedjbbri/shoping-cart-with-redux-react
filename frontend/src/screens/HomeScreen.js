@@ -1,9 +1,18 @@
- import './HomeScreen.css'
+ import Product from '../components/Product'
+import './HomeScreen.css'
 
 function HomeScreen() {
     return (
-        <div className="">
-            HomeScreen
+        <div className="homescreen">
+            <h2 className="homescreen__title">Latest products</h2>
+
+            <div className="homescreen__products">
+              <Product />
+              <Product />
+              <Product />
+              <Product />
+              <Product />
+            </div>
         </div>
     )
 }
