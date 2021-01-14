@@ -29,9 +29,7 @@ function App() {
                 
            </Switch>
         </main>
-         {/* homescreen */}
-         {/* productscreen */}
-         {/* cartscreen */}        
+           
         </Router> 
   );
 }
