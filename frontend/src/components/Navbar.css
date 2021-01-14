@@ -15,9 +15,12 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .navbar__logo > a {
     text-decoration: none;
 }
+=======
+>>>>>>> fe8246515c88dd4a864bf92ad6e7d22d51f85dac
 .navbar__links {
     display: flex;
     list-style: none;

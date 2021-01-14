@@ -8,8 +8,12 @@
     "server" : "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+<<<<<<< HEAD
     "data:import" : "node backend/seederScript.js" ,
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+=======
+    "data:import" : "node backend/seederScript.js" 
+>>>>>>> fe8246515c88dd4a864bf92ad6e7d22d51f85dac
     
   },
   "keywords": [],
